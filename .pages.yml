@@ -1,0 +1,277 @@
+media:
+  input: media/images
+  output: /media/images
+  extensions: [webp, png, jpg, jpeg]
+  rename: safe
+
+content:
+  - name: site
+    label: Website-Inhalte
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: seo
+        label: Seitentitel & Google-Beschreibung
+        type: object
+        fields:
+          - name: title
+            label: Seitentitel
+            type: string
+            required: true
+          - name: description
+            label: Beschreibung
+            type: text
+            required: true
+      - name: brand
+        label: Marke
+        type: object
+        fields:
+          - name: name
+            label: Name
+            type: string
+            required: true
+          - name: subtitle
+            label: Unterzeile
+            type: string
+      - name: hero
+        label: Startbereich
+        type: object
+        fields:
+          - name: kicker
+            label: Kleine Überschrift
+            type: string
+          - name: line1
+            label: Hauptüberschrift Zeile 1
+            type: string
+          - name: line2
+            label: Hauptüberschrift Zeile 2
+            type: string
+          - name: intro
+            label: Einführungstext
+            type: text
+          - name: image
+            label: Hauptbild
+            type: image
+            required: true
+          - name: alt
+            label: Bildbeschreibung
+            type: string
+            description: Kurze Beschreibung für Barrierefreiheit und Suchmaschinen.
+          - name: note
+            label: Text auf dem Hauptbild
+            type: string
+      - name: offer
+        label: Kreationen
+        type: object
+        fields:
+          - name: kicker
+            label: Kleine Überschrift
+            type: string
+          - name: heading
+            label: Überschrift
+            type: string
+          - name: intro
+            label: Einführung
+            type: text
+          - name: items
+            label: Kategorien
+            type: object
+            list:
+              min: 1
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - name: title
+                label: Titel
+                type: string
+                required: true
+              - name: text
+                label: Text
+                type: text
+      - name: gallery
+        label: Galerie-Kopf
+        type: object
+        fields:
+          - name: kicker
+            label: Kleine Überschrift
+            type: string
+          - name: heading
+            label: Überschrift
+            type: string
+          - name: intro
+            label: Einführung
+            type: text
+      - name: process
+        label: Kontakt & Ablauf
+        type: object
+        fields:
+          - name: kicker
+            label: Kleine Überschrift
+            type: string
+          - name: heading
+            label: Überschrift
+            type: string
+          - name: items
+            label: Schritte
+            type: object
+            list:
+              min: 1
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - name: title
+                label: Titel
+                type: string
+                required: true
+              - name: text
+                label: Text
+                type: text
+      - name: info
+        label: Gut zu wissen
+        type: object
+        fields:
+          - name: kicker
+            label: Kleine Überschrift
+            type: string
+          - name: heading
+            label: Überschrift
+            type: string
+          - name: text
+            label: Text
+            type: text
+          - name: facts
+            label: Kurzinfos
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{label}: {value}"
+            fields:
+              - name: label
+                label: Bezeichnung
+                type: string
+              - name: value
+                label: Wert
+                type: string
+      - name: contact
+        label: Kontakt
+        type: object
+        fields:
+          - name: kicker
+            label: Kleine Überschrift
+            type: string
+          - name: heading
+            label: Überschrift
+            type: string
+          - name: intro
+            label: Einführung
+            type: text
+          - name: email
+            label: E-Mail
+            type: string
+            required: true
+          - name: instagram
+            label: Instagram-Link
+            type: string
+            description: Leer lassen, solange kein Profil verlinkt werden soll.
+          - name: tiktok
+            label: TikTok-Link
+            type: string
+            description: Leer lassen, solange kein Profil verlinkt werden soll.
+          - name: pickup
+            label: Abholung
+            type: string
+      - name: faq
+        label: Häufige Fragen
+        type: object
+        fields:
+          - name: kicker
+            label: Kleine Überschrift
+            type: string
+          - name: heading
+            label: Überschrift
+            type: string
+          - name: items
+            label: Fragen
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{question}"
+            fields:
+              - name: question
+                label: Frage
+                type: string
+              - name: answer
+                label: Antwort
+                type: text
+      - name: legal
+        label: Impressum & Datenschutz
+        type: object
+        fields:
+          - name: kicker
+            label: Kleine Überschrift
+            type: string
+          - name: heading
+            label: Überschrift
+            type: string
+          - name: intro
+            label: Einführung
+            type: text
+          - name: owner
+            label: Name / Medieninhaberin
+            type: string
+          - name: location
+            label: Wohnort / Ort
+            type: string
+          - name: direction
+            label: Inhaltliche Ausrichtung
+            type: text
+          - name: imprint_note
+            label: Hinweis im Impressum
+            type: text
+          - name: privacy_tracker
+            label: Datenschutz – Cookies/Tracking
+            type: text
+          - name: privacy_form
+            label: Datenschutz – Kontaktformular
+            type: text
+          - name: privacy_hosting
+            label: Datenschutz – Hosting
+            type: text
+          - name: privacy_note
+            label: Datenschutz – Hinweis
+            type: text
+      - name: footer
+        label: Fußzeile
+        type: object
+        fields:
+          - name: tagline
+            label: Kurztext
+            type: string
+          - name: status
+            label: Unterste Zeile
+            type: string
+
+  - name: gallery_items
+    label: Galerie-Bilder
+    type: file
+    path: content/gallery.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Titel unter dem Bild
+        type: string
+        required: true
+      - name: image
+        label: Bild
+        type: image
+        required: true
+      - name: alt
+        label: Bildbeschreibung
+        type: string
+        description: Kurze Beschreibung des Motivs für Barrierefreiheit und Suchmaschinen.
