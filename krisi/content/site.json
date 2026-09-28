@@ -1,0 +1,152 @@
+{
+  "seo": {
+    "title": "Krisi’s Sweet Studio | Custom Cakes & Sweets in Wels",
+    "description": "Portfolio für individuelle Torten, Motivtorten, Rouladen und Sweets in Wels. Unverbindliche Kontaktaufnahme per E-Mail."
+  },
+  "brand": {
+    "name": "Krisi’s Sweet Studio",
+    "subtitle": "Custom Cakes & Sweets · Wels"
+  },
+  "hero": {
+    "kicker": "Cake Portfolio · Wels",
+    "line1": "Sweet moments,",
+    "line2": "made for you.",
+    "intro": "Eine Auswahl meiner Torten und Sweets für Geburtstage und besondere Anlässe. Wenn dir mein Stil gefällt, kannst du mich gerne unverbindlich kontaktieren.",
+    "image": "/media/images/lotus-hauptbild.webp",
+    "alt": "Dreistöckige Schokotorte mit Lotus-Keksen, Himbeeren und Erdbeeren",
+    "note": "Individuell gebacken in Wels · jede Torte wird nach deinen Wünschen gestaltet."
+  },
+  "offer": {
+    "kicker": "Was ich gerne backe",
+    "heading": "Für deinen Anlass. In deinem Stil.",
+    "intro": "Geschmack, Größe, Farben und Dekoration werden individuell abgestimmt. Der Preis richtet sich nach Größe und Aufwand.",
+    "items": [
+      {
+        "title": "Geburtstagstorten",
+        "text": "Individuell abgestimmt auf Anlass, Farben und gewünschtes Design."
+      },
+      {
+        "title": "Motivtorten",
+        "text": "Besondere Designs, Themen und Dekorationen nach Absprache."
+      },
+      {
+        "title": "Hochzeitstorten",
+        "text": "Elegante Torten für euren besonderen Tag – individuell geplant."
+      },
+      {
+        "title": "Cupcakes",
+        "text": "Passend zur Torte, als Geschenkbox oder für kleinere Feiern."
+      },
+      {
+        "title": "Cheesecakes",
+        "text": "Klassisch oder individuell angepasst – ganz nach deinem Geschmack."
+      },
+      {
+        "title": "Deine Idee",
+        "text": "Du hast etwas anderes im Kopf? Schreib mir einfach mit deinen Vorstellungen."
+      }
+    ]
+  },
+  "gallery": {
+    "kicker": "Galerie",
+    "heading": "Echte Arbeiten aus meiner Backstube",
+    "intro": "Eine Auswahl meiner bisherigen Torten und süßen Kreationen."
+  },
+  "process": {
+    "kicker": "Kontakt & Abstimmung",
+    "heading": "So können wir uns abstimmen.",
+    "items": [
+      {
+        "title": "Nachricht senden",
+        "text": "Am besten meldest du dich etwa 14 Tage vor deinem Wunschtermin."
+      },
+      {
+        "title": "Wünsche abstimmen",
+        "text": "Anlass, Größe, Geschmack, Farben und Referenzbilder besprechen."
+      },
+      {
+        "title": "Details klären",
+        "text": "Termin, Umfang und alle weiteren Details werden individuell besprochen."
+      },
+      {
+        "title": "In Wels abholen",
+        "text": "Wenn alles passt, wird die Torte zum vereinbarten Termin zur Abholung vorbereitet."
+      }
+    ]
+  },
+  "info": {
+    "kicker": "Gut zu wissen",
+    "heading": "Individuell statt von der Stange.",
+    "text": "Jede Torte entsteht individuell. Ob ein Termin möglich ist, hängt von Zeit, Aufwand und Verfügbarkeit ab.",
+    "facts": [
+      {
+        "label": "Anfragen",
+        "value": "nach Verfügbarkeit"
+      },
+      {
+        "label": "Vorlauf",
+        "value": "mind. 14 Tage"
+      },
+      {
+        "label": "Übergabe",
+        "value": "nur Abholung"
+      },
+      {
+        "label": "Region",
+        "value": "Wels"
+      }
+    ]
+  },
+  "contact": {
+    "kicker": "Kontakt",
+    "heading": "Erzähl mir von deiner Torte.",
+    "intro": "Je mehr Details du angibst, desto leichter kann ich einschätzen, ob dein Termin möglich ist und ob die Idee umsetzbar ist.",
+    "email": "kristin.dancheva2004@gmail.com",
+    "instagram": "",
+    "tiktok": "",
+    "pickup": "Wels · genaue Details nach Bestätigung"
+  },
+  "faq": {
+    "kicker": "FAQ",
+    "heading": "Häufige Fragen",
+    "items": [
+      {
+        "question": "Wie früh sollte ich anfragen?",
+        "answer": "Idealerweise mindestens 14 Tage vor deinem Wunschtermin. Kurzfristigere Anfragen können je nach Kapazität trotzdem möglich sein."
+      },
+      {
+        "question": "Kann ich ein Beispielbild schicken?",
+        "answer": "Ja. Referenzbilder helfen bei der Abstimmung. Das endgültige Design wird individuell umgesetzt."
+      },
+      {
+        "question": "Welche Geschmacksrichtungen gibt es?",
+        "answer": "Die Geschmacksrichtung wird individuell mit dir abgestimmt. Schreib einfach dazu, was du magst oder was du dir ungefähr vorstellst."
+      },
+      {
+        "question": "Gibt es Lieferung?",
+        "answer": "Aktuell ist nur Abholung im Raum Wels vorgesehen."
+      },
+      {
+        "question": "Wie läuft die Abstimmung ab?",
+        "answer": "Schreib mir kurz Anlass, Termin, ungefähre Größe und deine Idee. Danach können wir gemeinsam schauen, ob und wie sich die Torte umsetzen lässt."
+      }
+    ]
+  },
+  "legal": {
+    "kicker": "Rechtliches",
+    "heading": "Impressum & Datenschutz",
+    "intro": "Die Angaben sind bewusst schlank gehalten und auf die derzeitige Portfolio-Seite abgestimmt.",
+    "owner": "Kristin Dancheva",
+    "location": "Wels, Österreich",
+    "direction": "Persönliches Portfolio zur Präsentation eigener Torten, Backkreationen und Sweets sowie zur unverbindlichen Kontaktaufnahme.",
+    "imprint_note": "Hinweis: Falls die Website später regelmäßig oder eindeutig kommerziell genutzt wird, können zusätzliche gesetzliche Pflichtangaben erforderlich werden. Diese können dann ergänzt werden.",
+    "privacy_tracker": "Diese Website verwendet derzeit keine Analyse- oder Werbetracker und setzt selbst keine nicht notwendigen Cookies.",
+    "privacy_form": "Das Kontaktformular sendet keine Daten an einen eigenen Website-Server. Beim Absenden wird lediglich dein E-Mail-Programm mit einer vorbereiteten Nachricht geöffnet. Wenn du anschließend eine E-Mail sendest, werden die von dir übermittelten Daten ausschließlich zur Bearbeitung deiner Nachricht verwendet.",
+    "privacy_hosting": "Beim Aufruf einer veröffentlichten Website kann der jeweilige Hosting-Anbieter technisch notwendige Verbindungsdaten wie IP-Adresse, Zeitpunkt und aufgerufene Seite verarbeiten.",
+    "privacy_note": "Sobald der endgültige Hosting-Anbieter feststeht, sollte dieser Abschnitt um dessen konkrete Datenschutz- und Hosting-Angaben ergänzt werden."
+  },
+  "footer": {
+    "tagline": "Persönliches Portfolio für Torten und Sweets.",
+    "status": "Krisi’s Sweet Studio · Wels · Stand September 2026"
+  }
+}

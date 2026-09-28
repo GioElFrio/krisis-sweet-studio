@@ -1,0 +1,87 @@
+[
+  {
+    "title": "Mini Pavlovas",
+    "alt": "Mini-Pavlovas mit Kiwi, Erdbeeren, Kirschen und Minze",
+    "image": "/media/images/mini-pavlovas.webp"
+  },
+  {
+    "title": "Schoko-Kokos Torte",
+    "alt": "Schokodrip-Torte mit Kokos und Schmetterling",
+    "image": "/media/images/schoko-kokos-torte.webp"
+  },
+  {
+    "title": "Katzentorte",
+    "alt": "Schokoladentorte in Katzenform mit kleinen Herzchen am Rand",
+    "image": "/media/images/katzentorte.webp"
+  },
+  {
+    "title": "Pfirsich-Beeren-Roulade",
+    "alt": "Biskuitrolle mit Pfirsichstücken, Beeren und Staubzucker auf Holzbrett",
+    "image": "/media/images/pfirsich-beeren-roulade.webp"
+  },
+  {
+    "title": "Frucht-Schokoladentorte",
+    "alt": "Schokotorte mit Kiwi-Bananen-Füllung und Schokosplittern",
+    "image": "/media/images/frucht-schokoladentorte.webp"
+  },
+  {
+    "title": "LOL Geburtstagstorte",
+    "alt": "Rosa Geburtstagstorte mit LOL-Figuren und einer Zahl 9",
+    "image": "/media/images/lol-geburtstagstorte.webp"
+  },
+  {
+    "title": "Beerenkuchen",
+    "alt": "Schokoladentorte mit Erdbeeren und Blaubeeren neben einem pink verpackten Blumenstock",
+    "image": "/media/images/beerenkuchen.webp"
+  },
+  {
+    "title": "Heart Cake",
+    "alt": "Herzförmige rosa Torte mit Schriftzug twenty seven",
+    "image": "/media/images/heart-cake.webp"
+  },
+  {
+    "title": "Schoko & Erdbeere",
+    "alt": "Schokoladentorte mit Erdbeeren und heller Cremefüllung",
+    "image": "/media/images/schoko-erdbeere.webp"
+  },
+  {
+    "title": "Fußball Geburtstagstorte",
+    "alt": "Fußball-Geburtstagstorte mit Spielfeld-Motiv und Happy-Birthday-Topper",
+    "image": "/media/images/fussball-geburtstagstorte.webp"
+  },
+  {
+    "title": "Hello Kitty Geburtstagstorte",
+    "alt": "Helle Torte mit Erdbeerrand, Hello-Kitty-Motiv und pinken Zahlkerzen 10",
+    "image": "/media/images/hello-kitty-geburtstagstorte-1.webp"
+  },
+  {
+    "title": "Haselnuss Torte in Türkis",
+    "alt": "Haselnusstorte mit heller Creme und türkiser Verzierung",
+    "image": "/media/images/haselnuss-torte-tuerkis.webp"
+  },
+  {
+    "title": "Erdbeer-Roulade",
+    "alt": "Biskuitrolle mit Schlagobers, Erdbeeren und Staubzucker",
+    "image": "/media/images/erdbeer-roulade.webp"
+  },
+  {
+    "title": "Häschentorte",
+    "alt": "Torte mit gezeichnetem Häschen, Beeren und Schokodetails",
+    "image": "/media/images/haeschentorte.webp"
+  },
+  {
+    "title": "Spiderman Torte",
+    "alt": "Schokoladentorte mit Spiderman-Motiv und Geburtstagsdekor",
+    "image": "/media/images/spiderman-torte.webp"
+  },
+  {
+    "title": "Fruchtige Geburtstagstorte",
+    "alt": "Fruchttorte mit Ananas, Erdbeeren und blauen Zahlkerzen 22",
+    "image": "/media/images/fruchtige-geburtstagstorte.webp"
+  },
+  {
+    "title": "Hello Kitty Geburtstagstorte",
+    "alt": "Rosa Hello-Kitty-Geburtstagstorte mit Schriftzug Grace",
+    "image": "/media/images/hello-kitty-geburtstagstorte-2.webp"
+  }
+]
